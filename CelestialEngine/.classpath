@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="celestial"/>
+	<classpathentry kind="src" path="studio"/>
+	<classpathentry kind="src" path="nonEuclidian"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CelestialEngine/lib/natives-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/jython.jar"/>
+	<classpathentry kind="lib" path="lib/jars/jbullet.jar" sourcepath="/jbullet-20101010/src"/>
+	<classpathentry kind="lib" path="lib/jars/vecmath.jar"/>
+	<classpathentry kind="lib" path="lib/jars/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="lib/jars/javafx/javafx-swt.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CelestialEngine/lib/natives-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/javafx/javafx.base.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CelestialEngine/lib/natives-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/javafx/javafx.controls.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CelestialEngine/lib/natives-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/javafx/javafx.fxml.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CelestialEngine/lib/natives-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/javafx/javafx.graphics.jar" sourcepath="lib/jars/javafx/src.zip">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CelestialEngine/lib/natives-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/javafx/javafx.media.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CelestialEngine/lib/natives-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/javafx/javafx.swing.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CelestialEngine/lib/natives-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/javafx/javafx.web.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CelestialEngine/lib/natives-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

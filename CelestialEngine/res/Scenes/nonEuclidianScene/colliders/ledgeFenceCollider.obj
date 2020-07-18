@@ -1,0 +1,10 @@
+# Blender v2.80 (sub 75) OBJ File: 'nonEuclidianScene.blend'
+# www.blender.org
+o Ledge_Fence_Collider_Cube.105
+v -0.691157 2.681396 -0.000033
+v 0.692289 2.681396 -0.000033
+v -0.691157 -2.667857 -0.000033
+v 0.692289 -2.667857 -0.000033
+s off
+f 2 3 1
+f 2 4 3
